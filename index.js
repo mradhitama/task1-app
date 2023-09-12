@@ -8,12 +8,6 @@ const app = express();
 
 const httpServer = http.createServer(app);
 
-// var typeDefs = `
-// type Query{
-//   hello: String
-// }`;
-
-
 const authors = [
   { id: '1', name: "John Doe" },
   { id: '2', name: "Jane Smith" },
